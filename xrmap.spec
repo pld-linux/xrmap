@@ -12,11 +12,8 @@ Source1:	ftp://ftp.ac-grenoble.fr/ge/geosciences/CIA_WDB2.jpd.gz
 URL:		http://frmas.free.fr/li_1.htm
 BuildRequires:	XFree86-devel
 BuildRequires:	imake
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define _prefix	/usr
-%define _bindir %{_prefix}/X11R6/bin
-%define _mandir %{_prefix}/X11R6/man
 
 %description
 The Xrmap program provides a user-friendly X client for generating
@@ -42,17 +39,24 @@ dostêpna jest lista oko³o 20000 miast.
 %prep
 %setup -q
 
+sed -i -e 's/-O //' Imakefile
+
 %build
 xmkmf
-%{__make}
+%{__make} \
+	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
+# originally DESTDIR was meant as prefix, but we can abuse it
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT%{_prefix}
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR=%{_bindir} \
+	MANDIR=%{_mandir}/man1 \
+	SHAREDIR=%{_datadir}/rmap
 
-cp %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/rmap
+install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/rmap
 
 %clean
 rm -rf $RPM_BUILD_ROOT
