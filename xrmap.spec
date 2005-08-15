@@ -7,9 +7,9 @@ Version:	2.30
 Release:	1
 License:	GPL v2 + others - see README for details
 Group:		X11/Applications/Science
-Source0:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/%{name}-%{version}.tar.bz2
+Source0:	http://frmas.free.fr/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	f3d37e38337aaae35c9ea7d3499002eb
-Source1:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/CIA_WDB2.jpd.gz
+Source1:	http://frmas.free.fr/files/CIA_WDB2.jpd.gz
 # Source1-md5:	5a08415115ef4555aa6ba5e8a19791ec
 Source2:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/anthems-1.1.tar.bz2
 # Source2-md5:	4d63e6a61e9197f3c382e518de6503db
