@@ -1,7 +1,7 @@
 #
 # TODO: separate subpackages with at least pdfmaps and eawpats
 Summary:	xrmap - generate maps of the Earth with an amazing accuracy
-Summary(pl.UTF-8):   xrmap - generowanie map Ziemi z zadziwiającą dokładnością
+Summary(pl.UTF-8):	xrmap - generowanie map Ziemi z zadziwiającą dokładnością
 Name:		xrmap
 Version:	2.30
 Release:	1
