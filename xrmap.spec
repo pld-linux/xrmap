@@ -1,7 +1,7 @@
 #
 # TODO: separate subpackages with at least pdfmaps and eawpats
 Summary:	xrmap - generate maps of the Earth with an amazing accuracy
-Summary(pl):	xrmap - generowanie map Ziemi z zadziwiaj±c± dok³adno¶ci±
+Summary(pl.UTF-8):   xrmap - generowanie map Ziemi z zadziwiajÄ…cÄ… dokÅ‚adnoÅ›ciÄ…
 Name:		xrmap
 Version:	2.30
 Release:	1
@@ -41,16 +41,16 @@ be accurately zoomed in, up to a factor of 100 or more. The package
 also contains a rather comprehensive data set of world cities and
 locations - about 20000 cities are listed.
 
-%description -l pl
-Program Xrmap dostarcza przyjaznego dla u¿ytkownika klienta X do
-generowania obrazów Ziemi i przetwarzania ogólno¶wiatowych informacji
-wektorowych z CIA World Data Bank (du¿ego zbioru informacji
-geograficznych o objêto¶ci oko³o 45MB). Mo¿liwo¶ci obejmuj± linie
-wybrze¿y i wyspy, granice polityczne, wiêksze i mniejsze rzeki,
-lodowce, jeziora, kana³y, rafy itp. Obrazy mog± byæ szczegó³owo
-powiêkszane a¿ do wspó³czynnika 100 lub wiêcej. Pakiet zawiera tak¿e
-do¶æ obszerny zbiór danych o miastach z ca³ego ¶wiata i po³o¿eniach -
-dostêpna jest lista oko³o 20000 miast.
+%description -l pl.UTF-8
+Program Xrmap dostarcza przyjaznego dla uÅ¼ytkownika klienta X do
+generowania obrazÃ³w Ziemi i przetwarzania ogÃ³lnoÅ›wiatowych informacji
+wektorowych z CIA World Data Bank (duÅ¼ego zbioru informacji
+geograficznych o objÄ™toÅ›ci okoÅ‚o 45MB). MoÅ¼liwoÅ›ci obejmujÄ… linie
+wybrzeÅ¼y i wyspy, granice polityczne, wiÄ™ksze i mniejsze rzeki,
+lodowce, jeziora, kanaÅ‚y, rafy itp. Obrazy mogÄ… byÄ‡ szczegÃ³Å‚owo
+powiÄ™kszane aÅ¼ do wspÃ³Å‚czynnika 100 lub wiÄ™cej. Pakiet zawiera takÅ¼e
+doÅ›Ä‡ obszerny zbiÃ³r danych o miastach z caÅ‚ego Å›wiata i poÅ‚oÅ¼eniach -
+dostÄ™pna jest lista okoÅ‚o 20000 miast.
 
 %prep
 %setup -q
