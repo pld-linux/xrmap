@@ -12,11 +12,11 @@ Source0:	http://frmas.free.fr/files/%{name}-%{version}.tar.bz2
 Source1:	http://frmas.free.fr/files/CIA_WDB2.jpd.bz2
 # Source1-md5:	8b5255a685bbb5eef2f86df182731a32
 Source2:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/anthems-1.2.tar.bz2
-# Source2-md5:	7e8f454f7ad04776c6455b75225630bf
+# Source2-md5:	f69ffa62fa798a62657038250786795d
 Source3:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/flags-1.1.tar.bz2
 # Source3-md5:	e15fbfb1f1c8a313573ac499fb0ea090
 Source4:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/hymns-1.3.tar.bz2
-# Source4-md5:	682dfd893b2ed46c175e6c0a2374cbbe
+# Source4-md5:	85483d2fe168e0b5e8ca4fc422341ee6
 Source5:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/factbook_text_2002.tar.bz2
 # Source5-md5:	d28fc69a9fd48d9d39a1fda8099cfb1b
 Source6:	ftp://ftp.ac-grenoble.fr/ge/geosciences/xrmap/data/factbook_html_2002.tar.bz2
